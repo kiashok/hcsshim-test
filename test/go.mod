@@ -1,6 +1,7 @@
 module github.com/Microsoft/hcsshim/test
 
 go 1.21
+toolchain go1.22.5
 
 require (
 	github.com/Microsoft/go-winio v0.6.2
@@ -27,7 +28,7 @@ require (
 	golang.org/x/sys v0.25.0
 	google.golang.org/grpc v1.66.0
 	google.golang.org/protobuf v1.34.2
-	k8s.io/cri-api v0.27.1
+	k8s.io/cri-api v0.31.1
 )
 
 require (
